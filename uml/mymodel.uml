@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:javaeeProfile.JPA="http:///javaeeProfile/JPA.ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///javaeeProfile/JPA.ecore javaeeProfile.uml#_x2k9EUcxEeSqedW2Bm3qmw">
+  <uml:Model xmi:id="_83BlAEcsEeS9s8cdbjQKFg" name="MyModel">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1pXcwEcyEeSqedW2Bm3qmw" name="Person">
+      <ownedAttribute xmi:id="_7FJI8EcyEeSqedW2Bm3qmw" name="id">
+        <type xmi:type="uml:PrimitiveType" href="javaeeProfile.uml#_qRLrQEcsEeS9s8cdbjQKFg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Bzvu8EczEeSqedW2Bm3qmw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="javaeeProfile.uml#_lDI5EEcsEeS9s8cdbjQKFg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_FrOW0EczEeSqedW2Bm3qmw" name="birthdate">
+        <type xmi:type="uml:PrimitiveType" href="javaeeProfile.uml#_oTugEEcsEeS9s8cdbjQKFg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:id="_mzcKUEcyEeSqedW2Bm3qmw">
+      <eAnnotations xmi:id="_mzkGIEcyEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="javaeeProfile.uml#_x2k9EEcxEeSqedW2Bm3qmw"/>
+      </eAnnotations>
+      <appliedProfile href="javaeeProfile.uml#_a1Nh8EcrEeSqWcmEsB6dFg"/>
+    </profileApplication>
+  </uml:Model>
+  <javaeeProfile.JPA:Entity xmi:id="_5Dbv4EcyEeSqedW2Bm3qmw" base_Class="_1pXcwEcyEeSqedW2Bm3qmw"/>
+  <javaeeProfile.JPA:Id xmi:id="__vq-YEcyEeSqedW2Bm3qmw" base_Property="_7FJI8EcyEeSqedW2Bm3qmw"/>
+</xmi:XMI>

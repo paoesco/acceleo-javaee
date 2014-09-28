@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_a1Nh8EcrEeSqWcmEsB6dFg" name="javaeeProfile" metaclassReference="_pkJbkEcrEeSqWcmEsB6dFg _29CWAEcwEeSqedW2Bm3qmw">
+  <eAnnotations xmi:id="_x2kWAEcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_x2k9EEcxEeSqedW2Bm3qmw" name="javaeeProfile" nsURI="http:///schemas/javaeeProfile/_xu8EAEcxEeSqedW2Bm3qmw/0" nsPrefix="javaeeProfile">
+      <eAnnotations xmi:id="_x2lkIEcxEeSqedW2Bm3qmw" source="UMLDesignerProfileVersion">
+        <details xmi:id="_x2lkIUcxEeSqedW2Bm3qmw" key="Version" value="0.0.4"/>
+        <details xmi:id="_x2lkIkcxEeSqedW2Bm3qmw" key="Date" value="2014-09-28"/>
+        <details xmi:id="_x2lkI0cxEeSqedW2Bm3qmw" key="Author" value=""/>
+        <details xmi:id="_x2lkJEcxEeSqedW2Bm3qmw" key="Copyright" value=""/>
+        <details xmi:id="_x2lkJUcxEeSqedW2Bm3qmw" key="Comment" value=""/>
+      </eAnnotations>
+      <eSubpackages xmi:id="_x2k9EUcxEeSqedW2Bm3qmw" name="JPA" nsURI="http:///javaeeProfile/JPA.ecore" nsPrefix="javaeeProfile.JPA">
+        <eAnnotations xmi:id="_x2k9EkcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_kVAdMEcrEeSqWcmEsB6dFg"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_x2k9E0cxEeSqedW2Bm3qmw" name="Entity">
+          <eAnnotations xmi:id="_x2k9FEcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_mUXs4EcrEeSqWcmEsB6dFg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_x2k9FUcxEeSqedW2Bm3qmw" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_x2k9F0cxEeSqedW2Bm3qmw" name="Id">
+          <eAnnotations xmi:id="_x2k9GEcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_pPHNcEcwEeSqedW2Bm3qmw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_x2k9GUcxEeSqedW2Bm3qmw" name="base_Property" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </eSubpackages>
+      <eSubpackages xmi:id="_x2k9G0cxEeSqedW2Bm3qmw" name="JavaTypes" nsURI="http:///javaeeProfile/JavaTypes.ecore" nsPrefix="javaeeProfile.JavaTypes">
+        <eAnnotations xmi:id="_x2k9HEcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_g04I4EcsEeS9s8cdbjQKFg"/>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_x2k9HUcxEeSqedW2Bm3qmw" name="String" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_x2k9HkcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lDI5EEcsEeS9s8cdbjQKFg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_x2k9H0cxEeSqedW2Bm3qmw" name="Date" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_x2k9IEcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oTugEEcsEeS9s8cdbjQKFg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_x2k9IUcxEeSqedW2Bm3qmw" name="Long" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_x2k9IkcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qRLrQEcsEeS9s8cdbjQKFg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_x2k9I0cxEeSqedW2Bm3qmw" name="Boolean" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_x2k9JEcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rbSt8EcsEeS9s8cdbjQKFg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_x2k9JUcxEeSqedW2Bm3qmw" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_x2k9JkcxEeSqedW2Bm3qmw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ssWGIEcsEeS9s8cdbjQKFg"/>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_pkJbkEcrEeSqWcmEsB6dFg">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <elementImport xmi:id="_29CWAEcwEeSqedW2Bm3qmw">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_kVAdMEcrEeSqWcmEsB6dFg" name="JPA">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_mUXs4EcrEeSqWcmEsB6dFg" name="Entity">
+      <ownedAttribute xmi:id="_qdsSsEcrEeSqWcmEsB6dFg" name="base_Class" association="_qds5wEcrEeSqWcmEsB6dFg">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_pPHNcEcwEeSqedW2Bm3qmw" name="Id">
+      <ownedAttribute xmi:id="_3lMiMEcwEeSqedW2Bm3qmw" name="base_Property" association="_3lNwUEcwEeSqedW2Bm3qmw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_qds5wEcrEeSqWcmEsB6dFg" name="EntityExtendClass" memberEnd="_qds5wUcrEeSqWcmEsB6dFg _qdsSsEcrEeSqWcmEsB6dFg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_qds5wUcrEeSqWcmEsB6dFg" name="extension_Entity" type="_mUXs4EcrEeSqWcmEsB6dFg" association="_qds5wEcrEeSqWcmEsB6dFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_g04I4EcsEeS9s8cdbjQKFg" name="JavaTypes">
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lDI5EEcsEeS9s8cdbjQKFg" name="String"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_oTugEEcsEeS9s8cdbjQKFg" name="Date"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_qRLrQEcsEeS9s8cdbjQKFg" name="Long"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_rbSt8EcsEeS9s8cdbjQKFg" name="Boolean"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ssWGIEcsEeS9s8cdbjQKFg" name="Integer"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_3lNwUEcwEeSqedW2Bm3qmw" name="IdExtendProperty" memberEnd="_3lNwUUcwEeSqedW2Bm3qmw _3lMiMEcwEeSqedW2Bm3qmw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_3lNwUUcwEeSqedW2Bm3qmw" name="extension_Id" type="_pPHNcEcwEeSqedW2Bm3qmw" association="_3lNwUEcwEeSqedW2Bm3qmw"/>
+  </packagedElement>
+</uml:Profile>
