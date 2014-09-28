@@ -284,7 +284,7 @@ public class Crud extends AbstractAcceleoGenerator {
          * files to the "propertiesFiles" list:
          * 
          * final String prefix = "platform:/plugin/";
-         * final String pluginName = "com.jeetemplates.acceleo";
+         * final String pluginName = "org.eclipse.acceleo.module.sample";
          * final String packagePath = "/org/eclipse/acceleo/module/sample/properties/";
          * final String fileName = "default.properties";
          * propertiesFiles.add(prefix + pluginName + packagePath + fileName);
